@@ -1,0 +1,147 @@
+[27-Jul-2025 15:26:47 Europe/Berlin] === Khalti Payment Initiation ===
+[27-Jul-2025 15:26:47 Europe/Berlin] Order ID: 7
+[27-Jul-2025 15:26:47 Europe/Berlin] Amount: Rs. 100 (Paisa: 10000)
+[27-Jul-2025 15:26:47 Europe/Berlin] Return URL: http://localhost/book/payment/khalti/callback.php
+[27-Jul-2025 15:26:47 Europe/Berlin] Purchase Order ID: BOOK-1753622807-7-1720
+[27-Jul-2025 15:26:47 Europe/Berlin] Customer: saphalta neupane (saphalta@gmail.com)
+[27-Jul-2025 15:26:47 Europe/Berlin] Khalti Payload: {
+    "return_url": "http:\/\/localhost\/book\/payment\/khalti\/callback.php",
+    "website_url": "http:\/\/localhost\/book",
+    "amount": 10000,
+    "purchase_order_id": "BOOK-1753622807-7-1720",
+    "purchase_order_name": "aaaaa",
+    "customer_info": {
+        "name": "saphalta neupane",
+        "email": "saphalta@gmail.com",
+        "phone": "9848591283"
+    }
+}
+[27-Jul-2025 15:26:48 Europe/Berlin] Khalti Response Code: 200
+[27-Jul-2025 15:26:48 Europe/Berlin] Khalti Response: {"pidx":"3Vy2i9Cyquaa5U4vTDJURN","payment_url":"https://test-pay.khalti.com/?pidx=3Vy2i9Cyquaa5U4vTDJURN","expires_at":"2025-07-27T19:42:17.923128+05:45","expires_in":1800}
+[27-Jul-2025 15:26:48 Europe/Berlin] Payment initiated successfully. Redirecting to: https://test-pay.khalti.com/?pidx=3Vy2i9Cyquaa5U4vTDJURN
+[27-Jul-2025 15:36:04 Europe/Berlin] === Khalti Payment Initiation ===
+[27-Jul-2025 15:36:04 Europe/Berlin] Order ID: 8
+[27-Jul-2025 15:36:04 Europe/Berlin] Amount: Rs. 100 (Paisa: 10000)
+[27-Jul-2025 15:36:04 Europe/Berlin] Return URL: http://localhost/book/payment/khalti/callback.php
+[27-Jul-2025 15:36:04 Europe/Berlin] Purchase Order ID: BOOK-1753623364-8-5577
+[27-Jul-2025 15:36:04 Europe/Berlin] Customer: saphalta neupane (saphalta@gmail.com)
+[27-Jul-2025 15:36:04 Europe/Berlin] Khalti Payload: {
+    "return_url": "http:\/\/localhost\/book\/payment\/khalti\/callback.php",
+    "website_url": "http:\/\/localhost\/book",
+    "amount": 10000,
+    "purchase_order_id": "BOOK-1753623364-8-5577",
+    "purchase_order_name": "aaaaa",
+    "customer_info": {
+        "name": "saphalta neupane",
+        "email": "saphalta@gmail.com",
+        "phone": "9848591283"
+    }
+}
+[27-Jul-2025 15:36:04 Europe/Berlin] Khalti Response Code: 200
+[27-Jul-2025 15:36:04 Europe/Berlin] Khalti Response: {"pidx":"jKs2EgYkqEryF98xEMcJWf","payment_url":"https://test-pay.khalti.com/?pidx=jKs2EgYkqEryF98xEMcJWf","expires_at":"2025-07-27T19:51:34.879797+05:45","expires_in":1800}
+[27-Jul-2025 15:36:04 Europe/Berlin] Payment initiated successfully. Redirecting to: https://test-pay.khalti.com/?pidx=jKs2EgYkqEryF98xEMcJWf
+[27-Jul-2025 15:41:42 Europe/Berlin] === Khalti Payment Initiation ===
+[27-Jul-2025 15:41:42 Europe/Berlin] Order ID: 9
+[27-Jul-2025 15:41:42 Europe/Berlin] Amount: Rs. 100 (Paisa: 10000)
+[27-Jul-2025 15:41:42 Europe/Berlin] Return URL: http://localhost/book/payment/khalti/callback.php
+[27-Jul-2025 15:41:42 Europe/Berlin] Purchase Order ID: BOOK-1753623702-9-5715
+[27-Jul-2025 15:41:42 Europe/Berlin] Customer: saphalta neupane (saphalta@gmail.com)
+[27-Jul-2025 15:41:42 Europe/Berlin] Khalti Payload: {
+    "return_url": "http:\/\/localhost\/book\/payment\/khalti\/callback.php",
+    "website_url": "http:\/\/localhost\/book",
+    "amount": 10000,
+    "purchase_order_id": "BOOK-1753623702-9-5715",
+    "purchase_order_name": "22222",
+    "customer_info": {
+        "name": "saphalta neupane",
+        "email": "saphalta@gmail.com",
+        "phone": "9848591283"
+    }
+}
+[27-Jul-2025 15:41:43 Europe/Berlin] Khalti Response Code: 200
+[27-Jul-2025 15:41:43 Europe/Berlin] Khalti Response: {"pidx":"T2XZ7ZnAACeSQGWF4SgTzS","payment_url":"https://test-pay.khalti.com/?pidx=T2XZ7ZnAACeSQGWF4SgTzS","expires_at":"2025-07-27T19:57:12.951533+05:45","expires_in":1800}
+[27-Jul-2025 15:41:43 Europe/Berlin] Payment initiated successfully. Redirecting to: https://test-pay.khalti.com/?pidx=T2XZ7ZnAACeSQGWF4SgTzS
+[27-Jul-2025 15:52:22 Europe/Berlin] === Khalti Payment Initiation ===
+[27-Jul-2025 15:52:22 Europe/Berlin] Order ID: 10
+[27-Jul-2025 15:52:22 Europe/Berlin] Amount: Rs. 100 (Paisa: 10000)
+[27-Jul-2025 15:52:22 Europe/Berlin] Return URL: http://localhost/book/payment/khalti/callback.php
+[27-Jul-2025 15:52:22 Europe/Berlin] Purchase Order ID: BOOK-1753624342-10-5883
+[27-Jul-2025 15:52:22 Europe/Berlin] Customer: saphalta neupane (saphalta@gmail.com)
+[27-Jul-2025 15:52:22 Europe/Berlin] Khalti Payload: {
+    "return_url": "http:\/\/localhost\/book\/payment\/khalti\/callback.php",
+    "website_url": "http:\/\/localhost\/book",
+    "amount": 10000,
+    "purchase_order_id": "BOOK-1753624342-10-5883",
+    "purchase_order_name": "22222",
+    "customer_info": {
+        "name": "saphalta neupane",
+        "email": "saphalta@gmail.com",
+        "phone": "9848591283"
+    }
+}
+[27-Jul-2025 15:52:22 Europe/Berlin] Khalti Response Code: 200
+[27-Jul-2025 15:52:22 Europe/Berlin] Khalti Response: {"pidx":"ECs2vDTFkhNRjdZnnjbwEc","payment_url":"https://test-pay.khalti.com/?pidx=ECs2vDTFkhNRjdZnnjbwEc","expires_at":"2025-07-27T20:07:52.773641+05:45","expires_in":1800}
+[27-Jul-2025 15:52:22 Europe/Berlin] Payment initiated successfully. Redirecting to: https://test-pay.khalti.com/?pidx=ECs2vDTFkhNRjdZnnjbwEc
+[31-Jul-2025 04:40:50 Europe/Berlin] === Khalti Payment Initiation ===
+[31-Jul-2025 04:40:50 Europe/Berlin] Order ID: 11
+[31-Jul-2025 04:40:50 Europe/Berlin] Amount: Rs. 100 (Paisa: 10000)
+[31-Jul-2025 04:40:50 Europe/Berlin] Return URL: http://localhost/book/payment/khalti/callback.php
+[31-Jul-2025 04:40:50 Europe/Berlin] Purchase Order ID: BOOK-1753929650-11-8889
+[31-Jul-2025 04:40:50 Europe/Berlin] Customer: saphalta neupane (saphalta@gmail.com)
+[31-Jul-2025 04:40:50 Europe/Berlin] Khalti Payload: {
+    "return_url": "http:\/\/localhost\/book\/payment\/khalti\/callback.php",
+    "website_url": "http:\/\/localhost\/book",
+    "amount": 10000,
+    "purchase_order_id": "BOOK-1753929650-11-8889",
+    "purchase_order_name": "Harry Potter part 1",
+    "customer_info": {
+        "name": "saphalta neupane",
+        "email": "saphalta@gmail.com",
+        "phone": "9848591283"
+    }
+}
+[31-Jul-2025 04:40:50 Europe/Berlin] Khalti Response Code: 200
+[31-Jul-2025 04:40:50 Europe/Berlin] Khalti Response: {"pidx":"kzBUzaPsevtNp73wsViPCn","payment_url":"https://test-pay.khalti.com/?pidx=kzBUzaPsevtNp73wsViPCn","expires_at":"2025-07-31T08:56:22.619111+05:45","expires_in":1800}
+[31-Jul-2025 04:40:50 Europe/Berlin] Payment initiated successfully. Redirecting to: https://test-pay.khalti.com/?pidx=kzBUzaPsevtNp73wsViPCn
+[14-Aug-2025 16:55:42 Europe/Berlin] === Khalti Payment Initiation ===
+[14-Aug-2025 16:55:42 Europe/Berlin] Order ID: 24
+[14-Aug-2025 16:55:42 Europe/Berlin] Amount: Rs. 12 (Paisa: 1200)
+[14-Aug-2025 16:55:42 Europe/Berlin] Return URL: http://localhost/book/payment/khalti/callback.php
+[14-Aug-2025 16:55:42 Europe/Berlin] Purchase Order ID: BOOK-1755183342-24-6868
+[14-Aug-2025 16:55:42 Europe/Berlin] Customer: Sita (sita@gmail.com)
+[14-Aug-2025 16:55:42 Europe/Berlin] Khalti Payload: {
+    "return_url": "http:\/\/localhost\/book\/payment\/khalti\/callback.php",
+    "website_url": "http:\/\/localhost\/book",
+    "amount": 1200,
+    "purchase_order_id": "BOOK-1755183342-24-6868",
+    "purchase_order_name": "a",
+    "customer_info": {
+        "name": "Sita",
+        "email": "sita@gmail.com",
+        "phone": "9876543210"
+    }
+}
+[14-Aug-2025 16:55:43 Europe/Berlin] Khalti Response Code: 200
+[14-Aug-2025 16:55:43 Europe/Berlin] Khalti Response: {"pidx":"z9GBUeuEJS2tDwmyBuxSqN","payment_url":"https://test-pay.khalti.com/?pidx=z9GBUeuEJS2tDwmyBuxSqN","expires_at":"2025-08-14T21:10:43.655212+05:45","expires_in":1800}
+[14-Aug-2025 16:55:43 Europe/Berlin] Payment initiated successfully. Redirecting to: https://test-pay.khalti.com/?pidx=z9GBUeuEJS2tDwmyBuxSqN
+[18-Sep-2025 07:24:52 Europe/Berlin] === Khalti Payment Initiation ===
+[18-Sep-2025 07:24:52 Europe/Berlin] Order ID: 28
+[18-Sep-2025 07:24:52 Europe/Berlin] Amount: Rs. 700 (Paisa: 70000)
+[18-Sep-2025 07:24:52 Europe/Berlin] Return URL: http://localhost/book/payment/khalti/callback.php
+[18-Sep-2025 07:24:52 Europe/Berlin] Purchase Order ID: BOOK-1758173092-28-7630
+[18-Sep-2025 07:24:52 Europe/Berlin] Customer: saphalta neupane (saphalta@gmail.com)
+[18-Sep-2025 07:24:52 Europe/Berlin] Khalti Payload: {
+    "return_url": "http:\/\/localhost\/book\/payment\/khalti\/callback.php",
+    "website_url": "http:\/\/localhost\/book",
+    "amount": 70000,
+    "purchase_order_id": "BOOK-1758173092-28-7630",
+    "purchase_order_name": "The Call of the Wild",
+    "customer_info": {
+        "name": "saphalta neupane",
+        "email": "saphalta@gmail.com",
+        "phone": "9848591283"
+    }
+}
+[18-Sep-2025 07:24:53 Europe/Berlin] Khalti Response Code: 200
+[18-Sep-2025 07:24:53 Europe/Berlin] Khalti Response: {"pidx":"iLwDa6BtoFybn787gyFmH2","payment_url":"https://test-pay.khalti.com/?pidx=iLwDa6BtoFybn787gyFmH2","expires_at":"2025-09-18T11:39:53.354666+05:45","expires_in":1800}
+[18-Sep-2025 07:24:53 Europe/Berlin] Payment initiated successfully. Redirecting to: https://test-pay.khalti.com/?pidx=iLwDa6BtoFybn787gyFmH2

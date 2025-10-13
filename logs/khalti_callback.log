@@ -1,0 +1,91 @@
+[27-Jul-2025 15:27:08 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\book\config\db.php on line 17
+[27-Jul-2025 15:27:08 Europe/Berlin] === Khalti Callback Received ===
+[27-Jul-2025 15:27:08 Europe/Berlin] GET params: {"status":"Completed","t":"txn","idx":"7KC6useZgT2YDoYjC2My5D","token":"XiUyidJBjB5kgTLxqFeueY","bank_reference":"None","amount":"10000","mobile":"98XXXXX001","transaction_id":"7KC6useZgT2YDoYjC2My5D","tidx":"7KC6useZgT2YDoYjC2My5D","total_amount":"10000","purchase_order_id":"BOOK-1753622807-7-1720","purchase_order_name":"aaaaa","pidx":"3Vy2i9Cyquaa5U4vTDJURN"}
+[27-Jul-2025 15:27:08 Europe/Berlin] POST params: []
+[27-Jul-2025 15:27:08 Europe/Berlin] Session khalti_payment: {"pidx":"3Vy2i9Cyquaa5U4vTDJURN","order_id":7,"purchase_order_id":"BOOK-1753622807-7-1720","initiated_at":1753622808,"amount":100}
+[27-Jul-2025 15:27:08 Europe/Berlin] Processing payment with pidx: 3Vy2i9Cyquaa5U4vTDJURN
+[27-Jul-2025 15:27:08 Europe/Berlin] Found order_id in session: 7
+[27-Jul-2025 15:27:08 Europe/Berlin] Khalti Verification Response (HTTP 200): {"pidx":"3Vy2i9Cyquaa5U4vTDJURN","total_amount":10000,"status":"Completed","transaction_id":"7KC6useZgT2YDoYjC2My5D","fee":300,"refunded":false}
+[27-Jul-2025 15:27:08 Europe/Berlin] Payment successful. Transaction ID: 7KC6useZgT2YDoYjC2My5D
+[27-Jul-2025 15:27:08 Europe/Berlin] Order status updated successfully for order 7
+[27-Jul-2025 15:27:08 Europe/Berlin] Updated book #6 inventory: decreased by 1
+[27-Jul-2025 15:27:08 Europe/Berlin] Session cart cleared
+[27-Jul-2025 15:27:08 Europe/Berlin] Database cart cleared for user 2
+[27-Jul-2025 15:36:19 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\book\config\db.php on line 17
+[27-Jul-2025 15:36:19 Europe/Berlin] === Khalti Callback Received ===
+[27-Jul-2025 15:36:19 Europe/Berlin] GET params: {"status":"Completed","t":"txn","idx":"j478pG7Sx6esdAMnhGy3xY","token":"M5G9niFB53ZFZPLSXeXAbS","bank_reference":"None","amount":"10000","mobile":"98XXXXX000","transaction_id":"j478pG7Sx6esdAMnhGy3xY","tidx":"j478pG7Sx6esdAMnhGy3xY","total_amount":"10000","purchase_order_id":"BOOK-1753623364-8-5577","purchase_order_name":"aaaaa","pidx":"jKs2EgYkqEryF98xEMcJWf"}
+[27-Jul-2025 15:36:19 Europe/Berlin] POST params: []
+[27-Jul-2025 15:36:19 Europe/Berlin] Session khalti_payment: {"pidx":"jKs2EgYkqEryF98xEMcJWf","order_id":8,"purchase_order_id":"BOOK-1753623364-8-5577","initiated_at":1753623364,"amount":100}
+[27-Jul-2025 15:36:19 Europe/Berlin] Processing payment with pidx: jKs2EgYkqEryF98xEMcJWf
+[27-Jul-2025 15:36:19 Europe/Berlin] Found order_id in session: 8
+[27-Jul-2025 15:36:19 Europe/Berlin] Khalti Verification Response (HTTP 200): {"pidx":"jKs2EgYkqEryF98xEMcJWf","total_amount":10000,"status":"Completed","transaction_id":"j478pG7Sx6esdAMnhGy3xY","fee":300,"refunded":false}
+[27-Jul-2025 15:36:19 Europe/Berlin] Payment successful. Transaction ID: j478pG7Sx6esdAMnhGy3xY
+[27-Jul-2025 15:36:19 Europe/Berlin] Order status updated successfully for order 8
+[27-Jul-2025 15:36:19 Europe/Berlin] Updated book #6 inventory: decreased by 1
+[27-Jul-2025 15:36:19 Europe/Berlin] Session cart cleared
+[27-Jul-2025 15:36:19 Europe/Berlin] Database cart cleared for user 2
+[27-Jul-2025 15:41:57 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\book\config\db.php on line 17
+[27-Jul-2025 15:41:57 Europe/Berlin] === Khalti Callback Received ===
+[27-Jul-2025 15:41:57 Europe/Berlin] GET params: {"status":"Completed","t":"txn","idx":"u573fMZCo3NKsBimZFQcia","token":"55QRCBA6Ks8NEAbUCsLHY3","bank_reference":"None","amount":"10000","mobile":"98XXXXX000","transaction_id":"u573fMZCo3NKsBimZFQcia","tidx":"u573fMZCo3NKsBimZFQcia","total_amount":"10000","purchase_order_id":"BOOK-1753623702-9-5715","purchase_order_name":"22222","pidx":"T2XZ7ZnAACeSQGWF4SgTzS"}
+[27-Jul-2025 15:41:57 Europe/Berlin] POST params: []
+[27-Jul-2025 15:41:57 Europe/Berlin] Session khalti_payment: {"pidx":"T2XZ7ZnAACeSQGWF4SgTzS","order_id":9,"purchase_order_id":"BOOK-1753623702-9-5715","initiated_at":1753623703,"amount":100}
+[27-Jul-2025 15:41:57 Europe/Berlin] Processing payment with pidx: T2XZ7ZnAACeSQGWF4SgTzS
+[27-Jul-2025 15:41:57 Europe/Berlin] Found order_id in session: 9
+[27-Jul-2025 15:41:57 Europe/Berlin] Khalti Verification Response (HTTP 200): {"pidx":"T2XZ7ZnAACeSQGWF4SgTzS","total_amount":10000,"status":"Completed","transaction_id":"u573fMZCo3NKsBimZFQcia","fee":300,"refunded":false}
+[27-Jul-2025 15:41:57 Europe/Berlin] Payment successful. Transaction ID: u573fMZCo3NKsBimZFQcia
+[27-Jul-2025 15:41:57 Europe/Berlin] Order status updated successfully for order 9
+[27-Jul-2025 15:41:57 Europe/Berlin] Updated book #7 inventory: decreased by 1
+[27-Jul-2025 15:41:57 Europe/Berlin] Session cart cleared
+[27-Jul-2025 15:41:57 Europe/Berlin] Database cart cleared for user 2
+[27-Jul-2025 15:52:46 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\book\config\db.php on line 17
+[27-Jul-2025 15:52:46 Europe/Berlin] === Khalti Callback Received ===
+[27-Jul-2025 15:52:46 Europe/Berlin] GET params: {"status":"Completed","t":"txn","idx":"ejaCNhJDfFpW2Zs5wZr55K","token":"FUziUhceFUMFUKfzjcXNsZ","bank_reference":"None","amount":"10000","mobile":"98XXXXX000","transaction_id":"ejaCNhJDfFpW2Zs5wZr55K","tidx":"ejaCNhJDfFpW2Zs5wZr55K","total_amount":"10000","purchase_order_id":"BOOK-1753624342-10-5883","purchase_order_name":"22222","pidx":"ECs2vDTFkhNRjdZnnjbwEc"}
+[27-Jul-2025 15:52:46 Europe/Berlin] POST params: []
+[27-Jul-2025 15:52:46 Europe/Berlin] Session khalti_payment: {"pidx":"ECs2vDTFkhNRjdZnnjbwEc","order_id":10,"purchase_order_id":"BOOK-1753624342-10-5883","initiated_at":1753624342,"amount":100}
+[27-Jul-2025 15:52:46 Europe/Berlin] Processing payment with pidx: ECs2vDTFkhNRjdZnnjbwEc
+[27-Jul-2025 15:52:46 Europe/Berlin] Found order_id in session: 10
+[27-Jul-2025 15:52:46 Europe/Berlin] Khalti Verification Response (HTTP 200): {"pidx":"ECs2vDTFkhNRjdZnnjbwEc","total_amount":10000,"status":"Completed","transaction_id":"ejaCNhJDfFpW2Zs5wZr55K","fee":300,"refunded":false}
+[27-Jul-2025 15:52:46 Europe/Berlin] Payment successful. Transaction ID: ejaCNhJDfFpW2Zs5wZr55K
+[27-Jul-2025 15:52:46 Europe/Berlin] Order status updated successfully for order 10
+[27-Jul-2025 15:52:46 Europe/Berlin] Updated book #7 inventory: decreased by 1
+[27-Jul-2025 15:52:46 Europe/Berlin] Session cart cleared
+[27-Jul-2025 15:52:46 Europe/Berlin] Database cart cleared for user 2
+[31-Jul-2025 04:41:32 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\book\config\db.php on line 17
+[31-Jul-2025 04:41:32 Europe/Berlin] === Khalti Callback Received ===
+[31-Jul-2025 04:41:32 Europe/Berlin] GET params: {"status":"Completed","t":"txn","idx":"mtjyNTkhMro2A5LRk8vvtf","token":"ERGhMyfVh5exXbZsUtZDQF","bank_reference":"None","amount":"10000","mobile":"98XXXXX000","transaction_id":"mtjyNTkhMro2A5LRk8vvtf","tidx":"mtjyNTkhMro2A5LRk8vvtf","total_amount":"10000","purchase_order_id":"BOOK-1753929650-11-8889","purchase_order_name":"Harry Potter part 1","pidx":"kzBUzaPsevtNp73wsViPCn"}
+[31-Jul-2025 04:41:32 Europe/Berlin] POST params: []
+[31-Jul-2025 04:41:32 Europe/Berlin] Session khalti_payment: {"pidx":"kzBUzaPsevtNp73wsViPCn","order_id":11,"purchase_order_id":"BOOK-1753929650-11-8889","initiated_at":1753929650,"amount":100}
+[31-Jul-2025 04:41:32 Europe/Berlin] Processing payment with pidx: kzBUzaPsevtNp73wsViPCn
+[31-Jul-2025 04:41:32 Europe/Berlin] Found order_id in session: 11
+[31-Jul-2025 04:41:32 Europe/Berlin] Khalti Verification Response (HTTP 200): {"pidx":"kzBUzaPsevtNp73wsViPCn","total_amount":10000,"status":"Completed","transaction_id":"mtjyNTkhMro2A5LRk8vvtf","fee":300,"refunded":false}
+[31-Jul-2025 04:41:32 Europe/Berlin] Payment successful. Transaction ID: mtjyNTkhMro2A5LRk8vvtf
+[31-Jul-2025 04:41:32 Europe/Berlin] Order status updated successfully for order 11
+[31-Jul-2025 04:41:32 Europe/Berlin] Updated book #10 inventory: decreased by 1
+[31-Jul-2025 04:41:32 Europe/Berlin] Session cart cleared
+[31-Jul-2025 04:41:32 Europe/Berlin] Database cart cleared for user 2
+[14-Aug-2025 16:56:12 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\book\config\db.php on line 17
+[14-Aug-2025 16:56:12 Europe/Berlin] === Khalti Callback Received ===
+[14-Aug-2025 16:56:12 Europe/Berlin] GET params: {"status":"Completed","t":"txn","idx":"SfqgVkBpgybXQgxmUvhiUG","token":"Z6Nn2GCJCW8DX6Yzr9iL8n","bank_reference":"None","amount":"1200","mobile":"98XXXXX000","transaction_id":"SfqgVkBpgybXQgxmUvhiUG","tidx":"SfqgVkBpgybXQgxmUvhiUG","total_amount":"1200","purchase_order_id":"BOOK-1755183342-24-6868","purchase_order_name":"a","pidx":"z9GBUeuEJS2tDwmyBuxSqN"}
+[14-Aug-2025 16:56:12 Europe/Berlin] POST params: []
+[14-Aug-2025 16:56:12 Europe/Berlin] Session khalti_payment: {"pidx":"z9GBUeuEJS2tDwmyBuxSqN","order_id":24,"purchase_order_id":"BOOK-1755183342-24-6868","initiated_at":1755183343,"amount":12}
+[14-Aug-2025 16:56:12 Europe/Berlin] Processing payment with pidx: z9GBUeuEJS2tDwmyBuxSqN
+[14-Aug-2025 16:56:12 Europe/Berlin] Found order_id in session: 24
+[14-Aug-2025 16:56:12 Europe/Berlin] Khalti Verification Response (HTTP 200): {"pidx":"z9GBUeuEJS2tDwmyBuxSqN","total_amount":1200,"status":"Completed","transaction_id":"SfqgVkBpgybXQgxmUvhiUG","fee":36,"refunded":false}
+[14-Aug-2025 16:56:12 Europe/Berlin] Payment successful. Transaction ID: SfqgVkBpgybXQgxmUvhiUG
+[14-Aug-2025 16:56:12 Europe/Berlin] Order status updated successfully for order 24
+[14-Aug-2025 16:56:12 Europe/Berlin] Updated book #51 inventory: decreased by 1
+[14-Aug-2025 16:56:12 Europe/Berlin] Session cart cleared
+[14-Aug-2025 16:56:12 Europe/Berlin] Database cart cleared for user 4
+[18-Sep-2025 07:25:27 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\book\config\db.php on line 17
+[18-Sep-2025 07:25:27 Europe/Berlin] === Khalti Callback Received ===
+[18-Sep-2025 07:25:27 Europe/Berlin] GET params: {"status":"Completed","t":"txn","idx":"JXECXpvqVqFUXLMzzYjuTX","token":"MYXpksUUzErTRgYBH2aCsN","bank_reference":"None","amount":"70000","mobile":"98XXXXX001","transaction_id":"JXECXpvqVqFUXLMzzYjuTX","tidx":"JXECXpvqVqFUXLMzzYjuTX","total_amount":"70000","purchase_order_id":"BOOK-1758173092-28-7630","purchase_order_name":"The Call of the Wild","pidx":"iLwDa6BtoFybn787gyFmH2"}
+[18-Sep-2025 07:25:27 Europe/Berlin] POST params: []
+[18-Sep-2025 07:25:27 Europe/Berlin] Session khalti_payment: {"pidx":"iLwDa6BtoFybn787gyFmH2","order_id":28,"purchase_order_id":"BOOK-1758173092-28-7630","initiated_at":1758173093,"amount":700}
+[18-Sep-2025 07:25:27 Europe/Berlin] Processing payment with pidx: iLwDa6BtoFybn787gyFmH2
+[18-Sep-2025 07:25:27 Europe/Berlin] Found order_id in session: 28
+[18-Sep-2025 07:25:27 Europe/Berlin] Khalti Verification Response (HTTP 200): {"pidx":"iLwDa6BtoFybn787gyFmH2","total_amount":70000,"status":"Completed","transaction_id":"JXECXpvqVqFUXLMzzYjuTX","fee":2100,"refunded":false}
+[18-Sep-2025 07:25:27 Europe/Berlin] Payment successful. Transaction ID: JXECXpvqVqFUXLMzzYjuTX
+[18-Sep-2025 07:25:27 Europe/Berlin] Order status updated successfully for order 28
+[18-Sep-2025 07:25:27 Europe/Berlin] Updated book #34 inventory: decreased by 1
+[18-Sep-2025 07:25:27 Europe/Berlin] Session cart cleared
+[18-Sep-2025 07:25:27 Europe/Berlin] Database cart cleared for user 2
