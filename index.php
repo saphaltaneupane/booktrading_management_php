@@ -3,7 +3,7 @@ require_once 'config/db.php';
 require_once 'includes/functions.php';
 require_once 'includes/recommendation.php';
 
-// Initialize session cart if not exists
+// Initialize session cart if not exists update
 if (!isset($_SESSION['cart'])) {
 $_SESSION['cart'] = [];
 }
