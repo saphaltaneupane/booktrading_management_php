@@ -3,12 +3,12 @@ require_once 'config/db.php';
 require_once 'includes/functions.php';
 require_once 'includes/recommendation.php';
 
-// Initialize session cart if not exists update
+// Initialize session cart if not exists     update
 if (!isset($_SESSION['cart'])) {
 $_SESSION['cart'] = [];
 }
 
-// FIXED: Use consistent field names - check your actual database schema
+// FIXED: Use consistent field names - check your     actual database schema
 $genresQuery = "SELECT DISTINCT genre FROM books WHERE is_available = 1 AND quantity > 0 ORDER BY genre";
 $genresResult = mysqli_query($conn, $genresQuery);
 $genres = [];
