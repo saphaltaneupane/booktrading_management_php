@@ -8,7 +8,7 @@ if (!isset($_SESSION['cart'])) {
 $_SESSION['cart'] = [];
 }
 
-// FIXED: Use consistent field names - check your     actual database schema
+// FIXED: Use consistent field names - check your   testing  actual database schema
 $genresQuery = "SELECT DISTINCT genre FROM books WHERE is_available = 1 AND quantity > 0 ORDER BY genre";
 $genresResult = mysqli_query($conn, $genresQuery);
 $genres = [];
