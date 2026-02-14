@@ -89,3 +89,16 @@
 [18-Sep-2025 07:25:27 Europe/Berlin] Updated book #34 inventory: decreased by 1
 [18-Sep-2025 07:25:27 Europe/Berlin] Session cart cleared
 [18-Sep-2025 07:25:27 Europe/Berlin] Database cart cleared for user 2
+[13-Nov-2025 09:38:47 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\book\config\db.php on line 17
+[13-Nov-2025 09:38:47 Europe/Berlin] === Khalti Callback Received ===
+[13-Nov-2025 09:38:47 Europe/Berlin] GET params: {"status":"Completed","t":"txn","idx":"Ev4gBbU6GKrJzPr8QX5wBM","token":"4U3Ebt8nW2PJaKyVeR6bxd","bank_reference":"None","amount":"100000","mobile":"98XXXXX000","transaction_id":"Ev4gBbU6GKrJzPr8QX5wBM","tidx":"Ev4gBbU6GKrJzPr8QX5wBM","total_amount":"100000","purchase_order_id":"BOOK-1763023053-30-5007","purchase_order_name":"Harry Potter  Part 2and the Chamber  of Secrets","pidx":"EWGLbmmhy8uZhVQVcW6iH5"}
+[13-Nov-2025 09:38:47 Europe/Berlin] POST params: []
+[13-Nov-2025 09:38:47 Europe/Berlin] Session khalti_payment: {"pidx":"EWGLbmmhy8uZhVQVcW6iH5","order_id":30,"purchase_order_id":"BOOK-1763023053-30-5007","initiated_at":1763023053,"amount":1000}
+[13-Nov-2025 09:38:47 Europe/Berlin] Processing payment with pidx: EWGLbmmhy8uZhVQVcW6iH5
+[13-Nov-2025 09:38:47 Europe/Berlin] Found order_id in session: 30
+[13-Nov-2025 09:38:47 Europe/Berlin] Khalti Verification Response (HTTP 200): {"pidx":"EWGLbmmhy8uZhVQVcW6iH5","total_amount":100000,"status":"Completed","transaction_id":"Ev4gBbU6GKrJzPr8QX5wBM","fee":3000,"refunded":false}
+[13-Nov-2025 09:38:47 Europe/Berlin] Payment successful. Transaction ID: Ev4gBbU6GKrJzPr8QX5wBM
+[13-Nov-2025 09:38:47 Europe/Berlin] Order status updated successfully for order 30
+[13-Nov-2025 09:38:47 Europe/Berlin] Updated book #13 inventory: decreased by 1
+[13-Nov-2025 09:38:47 Europe/Berlin] Session cart cleared
+[13-Nov-2025 09:38:47 Europe/Berlin] Database cart cleared for user 2
