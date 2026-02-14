@@ -145,3 +145,24 @@
 [18-Sep-2025 07:24:53 Europe/Berlin] Khalti Response Code: 200
 [18-Sep-2025 07:24:53 Europe/Berlin] Khalti Response: {"pidx":"iLwDa6BtoFybn787gyFmH2","payment_url":"https://test-pay.khalti.com/?pidx=iLwDa6BtoFybn787gyFmH2","expires_at":"2025-09-18T11:39:53.354666+05:45","expires_in":1800}
 [18-Sep-2025 07:24:53 Europe/Berlin] Payment initiated successfully. Redirecting to: https://test-pay.khalti.com/?pidx=iLwDa6BtoFybn787gyFmH2
+[13-Nov-2025 09:37:33 Europe/Berlin] === Khalti Payment Initiation ===
+[13-Nov-2025 09:37:33 Europe/Berlin] Order ID: 30
+[13-Nov-2025 09:37:33 Europe/Berlin] Amount: Rs. 1000 (Paisa: 100000)
+[13-Nov-2025 09:37:33 Europe/Berlin] Return URL: http://localhost/book/payment/khalti/callback.php
+[13-Nov-2025 09:37:33 Europe/Berlin] Purchase Order ID: BOOK-1763023053-30-5007
+[13-Nov-2025 09:37:33 Europe/Berlin] Customer: saphalta neupane (saphalta@gmail.com)
+[13-Nov-2025 09:37:33 Europe/Berlin] Khalti Payload: {
+    "return_url": "http:\/\/localhost\/book\/payment\/khalti\/callback.php",
+    "website_url": "http:\/\/localhost\/book",
+    "amount": 100000,
+    "purchase_order_id": "BOOK-1763023053-30-5007",
+    "purchase_order_name": "Harry Potter  Part 2and the Chamber  of Secrets",
+    "customer_info": {
+        "name": "saphalta neupane",
+        "email": "saphalta@gmail.com",
+        "phone": "9848591283"
+    }
+}
+[13-Nov-2025 09:37:33 Europe/Berlin] Khalti Response Code: 200
+[13-Nov-2025 09:37:33 Europe/Berlin] Khalti Response: {"pidx":"EWGLbmmhy8uZhVQVcW6iH5","payment_url":"https://test-pay.khalti.com/?pidx=EWGLbmmhy8uZhVQVcW6iH5","expires_at":"2025-11-13T14:52:33.352860+05:45","expires_in":1800}
+[13-Nov-2025 09:37:33 Europe/Berlin] Payment initiated successfully. Redirecting to: https://test-pay.khalti.com/?pidx=EWGLbmmhy8uZhVQVcW6iH5

@@ -16,7 +16,7 @@ while ($row = mysqli_fetch_assoc($genresResult)) {
 $genres[] = $row['genre'];
 }
 
-// Get books by genre
+// Get books by genre  hello
 $booksByGenre = [];
 foreach ($genres as $genre) {
 $escapedGenre = mysqli_real_escape_string($conn, $genre);
